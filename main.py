@@ -27,7 +27,7 @@ import importlib
 import logging
 from pyrogram import Client, idle
 from logging.handlers import RotatingFileHandler
-from config import API_ID, API_HASH, BOT_TOKEN, OWNER_ID, SUDO_USERS, MONGO_URL, CHANNEL_ID, PREMIUM_LOGS  # Directly import required variables
+from config import API_ID, API_HASH, BOT_TOKEN, OWNER_ID, SUDO_USERS, PREMIUM_LOGS  # Directly import required variables
 from Extractor.modules import ALL_MODULES
 from web import web_app
 import threading
